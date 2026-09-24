@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Push | Toronto Maple Leafs Playoff Dashboard</title>
+  <meta name="description" content="Toronto Maple Leafs playoff race: Eastern Conference points, the Atlantic top three, the wild card, and what the remaining schedule is worth." />
+  <link rel="icon" href="https://assets.nhle.com/logos/nhl/svg/TOR_light.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=20260923a" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true">
+    <div class="flood flood-a"></div>
+    <div class="flood flood-b"></div>
+    <div class="diamond"></div>
+    <div class="maple"></div>
+  </div>
+
+  <div class="ticker" id="ticker" aria-label="Scoreboard ticker">
+    <div class="ticker-track" id="tickerTrack">Loading the race…</div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <img class="brand-logo" src="https://assets.nhle.com/logos/nhl/svg/TOR_light.svg" alt="Toronto Maple Leafs" />
+      <div>
+        <p class="eyebrow">Toronto Maple Leafs</p>
+        <h1>The Push</h1>
+      </div>
+    </div>
+    <div class="top-meta">
+      <span class="pill" id="updatePill">Refreshing</span>
+      <span class="pill ghost" id="seasonPill">Eastern Conference</span>
+    </div>
+  </header>
+
+  <section class="conclusion" id="conclusion" hidden>
+    <p class="kicker">Playoff race</p>
+    <h2>See ya next season</h2>
+    <p class="lede">The Toronto Maple Leafs have been mathematically eliminated from the Stanley Cup playoffs.</p>
+  </section>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <div class="hero-story">
+          <p class="kicker" id="statusKicker">Loading the cut line…</p>
+          <h2 id="headline">The race is loading</h2>
+          <p class="lede" id="blurb">Pulling standings, the schedule, and the points math.</p>
+          <div class="rules">
+            <span class="pill ghost">Win = 2 points</span>
+            <span class="pill ghost">OT / SO loss = 1</span>
+            <span class="pill ghost">Top 3 per division + 2 wild cards</span>
+          </div>
+        </div>
+        <div class="hero-chips" id="heroChips"></div>
+      </div>
+      <div class="hero-meters">
+        <div class="hero-score">
+          <p class="score-label" id="primaryLabel">Points back of the cut line</p>
+          <p class="score-giant" id="primaryGiant">—</p>
+          <p class="score-sub" id="primarySub">TOR</p>
+          <div class="heat">
+            <div class="heat-label">
+              <span id="heatName">Points rate</span>
+              <strong id="heatValue">0</strong>
+            </div>
+            <div class="heat-bar" role="meter" aria-label="Points rate" aria-valuemin="0" aria-valuemax="100">
+              <div class="heat-fill" id="heatFill"></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-score odds">
+          <p class="score-label">Making the playoffs</p>
+          <p class="score-giant" id="oddsGiant">—</p>
+          <p class="score-sub" id="oddsLine">Simulating the schedule…</p>
+          <p class="odds-note" id="oddsNote"></p>
+        </div>
+        <div class="hero-score magic">
+          <p class="score-label" id="magicLabel">Magic number to clinch</p>
+          <p class="score-giant" id="magicGiant">—</p>
+          <p class="score-sub" id="magicLine">Points still to bank</p>
+          <p class="odds-note" id="magicNote"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="kpis" id="kpis" aria-label="Playoff KPIs"></section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>Trendlines</h3>
+        <p id="trendBlurb">The gaps that decide April, and whether the points are coming at home or on the road.</p>
+      </div>
+      <div class="trends" id="trends"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>Two ways in</h3>
+        <p>Finish top three in the Atlantic, or be one of the two best remaining teams in the East. The closer route is the one that matters.</p>
+      </div>
+      <div class="path-grid" id="paths"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>The cut line</h3>
+        <p id="tableBlurb">Eight Eastern clubs play on. The line under the eighth name is the whole race.</p>
+      </div>
+      <div class="legend">
+        <span><i class="swatch in"></i> <span id="legendIn">In a playoff spot</span></span>
+        <span><i class="swatch hunt"></i> <span id="legendOut">Outside</span></span>
+        <span><i class="swatch jays"></i> Toronto</span>
+      </div>
+      <div class="table-wrap">
+        <table class="board" id="conferenceTable">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="split">
+      <section class="panel">
+        <div class="section-head">
+          <h3>Atlantic</h3>
+          <p>The top three get in even if a Metropolitan club has more points. The line under third place is the automatic berth.</p>
+        </div>
+        <div class="table-wrap">
+          <table class="board compact" id="atlanticTable">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-head">
+          <h3>Division leaders</h3>
+          <p>These two are the automatic No. 1 seeds. Everyone else is chasing the other six Eastern berths.</p>
+        </div>
+        <div class="leader-grid" id="divLeaders"></div>
+      </section>
+    </div>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3 id="compareTitle">Teams in the division</h3>
+        <p>Points win the race. Regulation wins break the ties. Goal differential is the “are they actually this good?” check.</p>
+      </div>
+      <div class="compare" id="compare"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>The gauntlet</h3>
+        <p id="gauntletBlurb">Remaining Toronto games. A win is two points. A back-to-back is marked.</p>
+      </div>
+      <div class="tickets" id="tickets"></div>
+    </section>
+
+    <section class="panel" id="preseasonPanel">
+      <div class="section-head">
+        <h3>Exhibition</h3>
+        <p>Preseason results do not touch the standings. They are here so a Tuesday loss in September does not look like the race.</p>
+      </div>
+      <div class="preseason" id="preseason"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>Rooting interest</h3>
+        <p id="rootingBlurb">Win odds use the same points model as the playoff card. Not a betting line, and not a live in-game number.</p>
+      </div>
+      <div class="rooting" id="rooting"></div>
+    </section>
+
+    <div class="split">
+      <section class="panel">
+        <div class="section-head">
+          <h3>Recent results</h3>
+          <p id="recentBlurb">The stretch that moved the points column.</p>
+        </div>
+        <ol class="results" id="results"></ol>
+      </section>
+      <section class="panel">
+        <div class="section-head">
+          <h3>Tiebreakers</h3>
+          <p>Points first. Then regulation wins. Then regulation-plus-overtime wins. Shootout wins are points, but they do not help the tiebreaker.</p>
+        </div>
+        <div id="tiebreak"></div>
+      </section>
+    </div>
+
+    <div class="split">
+      <section class="panel">
+        <div class="section-head">
+          <h3>The forwards</h3>
+          <p id="forwardBlurb">Current roster. Points are the column that matters.</p>
+        </div>
+        <div class="players" id="forwards"></div>
+      </section>
+      <section class="panel">
+        <div class="section-head">
+          <h3>The blue line</h3>
+          <p>Same idea: points, then the plus-minus, then how many minutes they are actually playing.</p>
+        </div>
+        <div class="players" id="defense"></div>
+      </section>
+    </div>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>The crease</h3>
+        <p id="goalieBlurb">Save percentage first. Goals-against average second. Wins are a team stat wearing a mask.</p>
+      </div>
+      <div class="players" id="goalies"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Updated from the NHL’s public API. Not affiliated with the NHL or the Maple Leafs.</p>
+    <p class="tiny">Eight Eastern teams qualify: the top three in the Atlantic, the top three in the Metropolitan, and two wild cards. A regulation win and an overtime win are both two points. Only the regulation win counts first when teams are tied.</p>
+  </footer>
+
+  <script src="js/app.js?v=20260923b"></script>
+</body>
+</html>
