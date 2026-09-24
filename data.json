@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T19:17:49.749199-04:00",
+  "generatedAt": "2026-09-23T20:02:45.259078-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "preview",
@@ -2651,7 +2651,7 @@
       "awayWinPct": 54.9,
       "homeAbbr": "TOR",
       "awayAbbr": "OTT",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1,
       "ot": false,
       "backToBack": false,
