@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T10:28:24.486307-04:00",
+  "generatedAt": "2026-09-24T14:37:41.676180-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "preview",
@@ -2994,19 +2994,6 @@
         "shots": 15
       },
       {
-        "id": 8484901,
-        "name": "Jacob Quillan",
-        "position": "C",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8484901.png",
-        "gp": 23,
-        "goals": 1,
-        "assists": 2,
-        "points": 3,
-        "plusMinus": -5,
-        "toi": "10:16",
-        "shots": 14
-      },
-      {
         "id": 8485467,
         "name": "Luke Haymes",
         "position": "C",
@@ -3126,19 +3113,6 @@
         "shots": 42
       },
       {
-        "id": 8477541,
-        "name": "Dakota Mermis",
-        "position": "D",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8477541.png",
-        "gp": 11,
-        "goals": 1,
-        "assists": 0,
-        "points": 1,
-        "plusMinus": -3,
-        "toi": "13:02",
-        "shots": 5
-      },
-      {
         "id": 8483546,
         "name": "Marshall Rifai",
         "position": "D",
@@ -3164,18 +3138,6 @@
         "sv": 0.892655,
         "gaa": 3.282347,
         "so": 0
-      },
-      {
-        "id": 8482085,
-        "name": "Samuel Hlavaj",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8482085.png",
-        "gp": null,
-        "wins": null,
-        "losses": null,
-        "otl": null,
-        "sv": null,
-        "gaa": null,
-        "so": null
       },
       {
         "id": 8475683,
