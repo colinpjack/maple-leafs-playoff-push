@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T01:17:18.678709-04:00",
+  "generatedAt": "2026-09-25T15:31:14.563324-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "preview",
@@ -2968,19 +2968,6 @@
         "shots": 52
       },
       {
-        "id": 8478904,
-        "name": "Steven Lorentz",
-        "position": "C",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8478904.png",
-        "gp": 71,
-        "goals": 7,
-        "assists": 11,
-        "points": 18,
-        "plusMinus": -2,
-        "toi": "11:52",
-        "shots": 70
-      },
-      {
         "id": 8480870,
         "name": "Bo Groulx",
         "position": "C",
@@ -3005,32 +2992,6 @@
         "plusMinus": -2,
         "toi": "13:33",
         "shots": 3
-      },
-      {
-        "id": 8479543,
-        "name": "Michael Pezzetta",
-        "position": "L",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8479543.png",
-        "gp": 9,
-        "goals": 0,
-        "assists": 0,
-        "points": 0,
-        "plusMinus": -4,
-        "toi": "6:28",
-        "shots": 2
-      },
-      {
-        "id": 8482525,
-        "name": "Ryan Tverberg",
-        "position": "C",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8482525.png",
-        "gp": 2,
-        "goals": 0,
-        "assists": 0,
-        "points": 0,
-        "plusMinus": 1,
-        "toi": "9:52",
-        "shots": 1
       }
     ],
     "defense": [
@@ -3098,32 +3059,6 @@
         "plusMinus": 8,
         "toi": "17:58",
         "shots": 8
-      },
-      {
-        "id": 8479026,
-        "name": "Philippe Myers",
-        "position": "D",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8479026.png",
-        "gp": 39,
-        "goals": 0,
-        "assists": 2,
-        "points": 2,
-        "plusMinus": -10,
-        "toi": "14:33",
-        "shots": 42
-      },
-      {
-        "id": 8483546,
-        "name": "Marshall Rifai",
-        "position": "D",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8483546.png",
-        "gp": 1,
-        "goals": 0,
-        "assists": 0,
-        "points": 0,
-        "plusMinus": 0,
-        "toi": "9:40",
-        "shots": 1
       }
     ],
     "goalies": [
