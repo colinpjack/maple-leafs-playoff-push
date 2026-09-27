@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T01:17:47.864111-04:00",
+  "generatedAt": "2026-09-27T11:23:17.013166-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "preview",
@@ -2953,19 +2953,6 @@
         "plusMinus": -5,
         "toi": "14:43",
         "shots": 92
-      },
-      {
-        "id": 8478057,
-        "name": "Dakota Joshua",
-        "position": "C",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8478057.png",
-        "gp": 55,
-        "goals": 10,
-        "assists": 8,
-        "points": 18,
-        "plusMinus": -2,
-        "toi": "12:15",
-        "shots": 52
       },
       {
         "id": 8480870,
