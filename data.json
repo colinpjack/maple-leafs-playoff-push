@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T11:23:17.013166-04:00",
+  "generatedAt": "2026-09-28T02:58:16.121481-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "preview",
@@ -10,7 +10,7 @@
   "narrative": {
     "status": "preview",
     "kicker": "2026\u201327 opens Tue, Sep 29 \u00b7 7:00 PM",
-    "headline": "Puck drop in 2 days",
+    "headline": "Puck drop tomorrow",
     "blurb": "The Leafs open at home against Montr\u00e9al on Tue, Sep 29 \u00b7 7:00 PM. A full-season simulation gives Toronto a 8% chance to still be playing in April. Last spring they finished 21 points back of the easier route in, the Eastern wild card."
   },
   "meters": {
@@ -25,7 +25,7 @@
     },
     "third": {
       "label": "Days to opening night",
-      "value": "2",
+      "value": "1",
       "sub": "Tue, Sep 29 \u00b7 7:00 PM",
       "note": "Exhibition games do not count. The standings start at zero on opening night."
     }
@@ -3079,7 +3079,7 @@
     "date": "2026-09-29",
     "start": "2026-09-29T23:00:00Z",
     "label": "Tue, Sep 29 \u00b7 7:00 PM",
-    "days": 2,
+    "days": 1,
     "isHome": true,
     "opponent": "MTL",
     "opponentName": "Montr\u00e9al",
@@ -3092,7 +3092,7 @@
     "PLAYOFF ODDS 8%",
     "EASIER PATH 21",
     "84 GAMES LEFT",
-    "Puck drop in 2 days",
+    "Puck drop tomorrow",
     "PRESEASON DOES NOT COUNT"
   ],
   "legend": {
