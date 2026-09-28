@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T02:58:16.121481-04:00",
+  "generatedAt": "2026-09-28T11:27:17.190288-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "preview",
@@ -2098,11 +2098,11 @@
         "common": "Predators",
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "division": "Central",
-        "pointPct": 0.524
+        "pointPct": 0.531
       },
-      "leafsWinPct": 50.6,
-      "homeWinPct": 50.6,
-      "awayWinPct": 49.4,
+      "leafsWinPct": 50.2,
+      "homeWinPct": 50.2,
+      "awayWinPct": 49.8,
       "homeAbbr": "TOR",
       "awayAbbr": "NSH",
       "homeScore": null,
@@ -2154,11 +2154,11 @@
         "common": "Avalanche",
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "division": "Central",
-        "pointPct": 0.738
+        "pointPct": 0.735
       },
-      "leafsWinPct": 27.9,
-      "homeWinPct": 72.1,
-      "awayWinPct": 27.9,
+      "leafsWinPct": 28.1,
+      "homeWinPct": 71.9,
+      "awayWinPct": 28.1,
       "homeAbbr": "COL",
       "awayAbbr": "TOR",
       "homeScore": null,
@@ -2182,11 +2182,11 @@
         "common": "Mammoth",
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "division": "Central",
-        "pointPct": 0.561
+        "pointPct": 0.568
       },
-      "leafsWinPct": 40.1,
-      "homeWinPct": 59.9,
-      "awayWinPct": 40.1,
+      "leafsWinPct": 39.6,
+      "homeWinPct": 60.4,
+      "awayWinPct": 39.6,
       "homeAbbr": "UTA",
       "awayAbbr": "TOR",
       "homeScore": null,
@@ -2266,11 +2266,11 @@
         "common": "Sharks",
         "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
         "division": "Pacific",
-        "pointPct": 0.524
+        "pointPct": 0.519
       },
-      "leafsWinPct": 50.6,
-      "homeWinPct": 50.6,
-      "awayWinPct": 49.4,
+      "leafsWinPct": 51.0,
+      "homeWinPct": 51.0,
+      "awayWinPct": 49.0,
       "homeAbbr": "TOR",
       "awayAbbr": "SJS",
       "homeScore": null,
@@ -2361,11 +2361,11 @@
         "common": "Ducks",
         "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
         "division": "Pacific",
-        "pointPct": 0.561
+        "pointPct": 0.556
       },
-      "leafsWinPct": 40.1,
-      "homeWinPct": 59.9,
-      "awayWinPct": 40.1,
+      "leafsWinPct": 40.4,
+      "homeWinPct": 59.6,
+      "awayWinPct": 40.4,
       "homeAbbr": "ANA",
       "awayAbbr": "TOR",
       "homeScore": 4,
@@ -2389,11 +2389,11 @@
         "common": "Sharks",
         "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
         "division": "Pacific",
-        "pointPct": 0.524
+        "pointPct": 0.519
       },
-      "leafsWinPct": 42.6,
-      "homeWinPct": 57.4,
-      "awayWinPct": 42.6,
+      "leafsWinPct": 43.0,
+      "homeWinPct": 57.0,
+      "awayWinPct": 43.0,
       "homeAbbr": "SJS",
       "awayAbbr": "TOR",
       "homeScore": 4,
@@ -2417,11 +2417,11 @@
         "common": "Kings",
         "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
         "division": "Pacific",
-        "pointPct": 0.549
+        "pointPct": 0.556
       },
-      "leafsWinPct": 40.9,
-      "homeWinPct": 59.1,
-      "awayWinPct": 40.9,
+      "leafsWinPct": 40.4,
+      "homeWinPct": 59.6,
+      "awayWinPct": 40.4,
       "homeAbbr": "LAK",
       "awayAbbr": "TOR",
       "homeScore": 7,
@@ -2795,11 +2795,11 @@
         "common": "Predators",
         "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
         "division": "Central",
-        "pointPct": 0.524
+        "pointPct": 0.531
       },
-      "leafsWinPct": 50.6,
-      "homeWinPct": 50.6,
-      "awayWinPct": 49.4,
+      "leafsWinPct": 50.2,
+      "homeWinPct": 50.2,
+      "awayWinPct": 49.8,
       "homeAbbr": "TOR",
       "awayAbbr": "NSH",
       "homeScore": null,
@@ -2810,7 +2810,7 @@
       "result": null,
       "final": false,
       "interest": "Leafs game",
-      "note": "A win banks 2 points. An overtime loss still salvages 1. Model has Toronto at 50.6%.",
+      "note": "A win banks 2 points. An overtime loss still salvages 1. Model has Toronto at 50.2%.",
       "wantWinner": "TOR"
     },
     {
@@ -2857,11 +2857,11 @@
         "common": "Avalanche",
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "division": "Central",
-        "pointPct": 0.738
+        "pointPct": 0.735
       },
-      "leafsWinPct": 27.9,
-      "homeWinPct": 72.1,
-      "awayWinPct": 27.9,
+      "leafsWinPct": 28.1,
+      "homeWinPct": 71.9,
+      "awayWinPct": 28.1,
       "homeAbbr": "COL",
       "awayAbbr": "TOR",
       "homeScore": null,
@@ -2872,7 +2872,7 @@
       "result": null,
       "final": false,
       "interest": "Leafs game",
-      "note": "A win banks 2 points. An overtime loss still salvages 1. Model has Toronto at 27.9%.",
+      "note": "A win banks 2 points. An overtime loss still salvages 1. Model has Toronto at 28.1%.",
       "wantWinner": "TOR"
     }
   ],
