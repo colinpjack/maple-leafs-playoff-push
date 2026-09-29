@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T03:27:08.599238-04:00",
+  "generatedAt": "2026-09-29T15:35:48.628729-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "preview",
@@ -2914,19 +2914,6 @@
         "plusMinus": -28,
         "toi": "18:11",
         "shots": 192
-      },
-      {
-        "id": 8482720,
-        "name": "Matthew Knies",
-        "position": "L",
-        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8482720.png",
-        "gp": 79,
-        "goals": 23,
-        "assists": 43,
-        "points": 66,
-        "plusMinus": -30,
-        "toi": "18:48",
-        "shots": 140
       },
       {
         "id": 8479318,
