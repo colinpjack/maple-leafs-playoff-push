@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:35:48.628729-04:00",
+  "generatedAt": "2026-09-29T19:14:14.515244-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "preview",
@@ -2005,7 +2005,7 @@
       "id": 2026020002,
       "date": "2026-09-29",
       "start": "2026-09-29T23:00:00Z",
-      "state": "FUT",
+      "state": "PRE",
       "venue": "Scotiabank Arena",
       "isHome": true,
       "opponent": {
@@ -2693,7 +2693,7 @@
       "id": 2026020002,
       "date": "2026-09-29",
       "start": "2026-09-29T23:00:00Z",
-      "state": "FUT",
+      "state": "PRE",
       "venue": "Scotiabank Arena",
       "isHome": true,
       "opponent": {
