@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T01:11:46.319286-04:00",
+  "generatedAt": "2026-10-19T13:19:32.765079-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -3176,6 +3176,18 @@
         "sv": 0.875,
         "gaa": 3.322872,
         "so": 0
+      },
+      {
+        "id": 8482515,
+        "name": "Artur Akhtyamov",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8482515.png",
+        "gp": null,
+        "wins": null,
+        "losses": null,
+        "otl": null,
+        "sv": null,
+        "gaa": null,
+        "so": null
       }
     ]
   },
