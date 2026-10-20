@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T01:26:31.001045-04:00",
+  "generatedAt": "2026-10-20T18:43:52.644433-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -2003,7 +2003,7 @@
       "id": 2026020145,
       "date": "2026-10-20",
       "start": "2026-10-20T23:00:00Z",
-      "state": "FUT",
+      "state": "PRE",
       "venue": "Nationwide Arena",
       "isHome": false,
       "opponent": {
@@ -2691,7 +2691,7 @@
       "id": 2026020145,
       "date": "2026-10-20",
       "start": "2026-10-20T23:00:00Z",
-      "state": "FUT",
+      "state": "PRE",
       "venue": "Nationwide Arena",
       "isHome": false,
       "opponent": {
