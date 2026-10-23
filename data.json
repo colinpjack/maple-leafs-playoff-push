@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T00:47:59.931332-04:00",
+  "generatedAt": "2026-10-23T05:38:32.408578-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -120,7 +120,7 @@
     },
     {
       "label": "Schedule",
-      "value": ".554",
+      "value": ".555",
       "hint": "Average opponent strength still on the board",
       "stat": "SOS"
     }
@@ -2066,11 +2066,11 @@
         "common": "Kraken",
         "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
         "division": "Pacific",
-        "pointPct": 0.65
+        "pointPct": 0.682
       },
-      "leafsWinPct": 43.9,
-      "homeWinPct": 56.1,
-      "awayWinPct": 43.9,
+      "leafsWinPct": 42.1,
+      "homeWinPct": 57.9,
+      "awayWinPct": 42.1,
       "homeAbbr": "SEA",
       "awayAbbr": "TOR",
       "homeScore": null,
@@ -2122,11 +2122,11 @@
         "common": "Mammoth",
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "division": "Central",
-        "pointPct": 0.7
+        "pointPct": 0.636
       },
-      "leafsWinPct": 46.4,
-      "homeWinPct": 46.4,
-      "awayWinPct": 53.6,
+      "leafsWinPct": 48.3,
+      "homeWinPct": 48.3,
+      "awayWinPct": 51.7,
       "homeAbbr": "TOR",
       "awayAbbr": "UTA",
       "homeScore": null,
@@ -2341,7 +2341,7 @@
     "division": 25,
     "conference": 45,
     "backToBacks": 9,
-    "sos": 0.554
+    "sos": 0.555
   },
   "recent": [
     {
@@ -2413,11 +2413,11 @@
         "common": "Mammoth",
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "division": "Central",
-        "pointPct": 0.7
+        "pointPct": 0.636
       },
-      "leafsWinPct": 38.4,
-      "homeWinPct": 61.6,
-      "awayWinPct": 38.4,
+      "leafsWinPct": 40.3,
+      "homeWinPct": 59.7,
+      "awayWinPct": 40.3,
       "homeAbbr": "UTA",
       "awayAbbr": "TOR",
       "homeScore": 5,
@@ -2760,11 +2760,11 @@
         "common": "Kraken",
         "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
         "division": "Pacific",
-        "pointPct": 0.65
+        "pointPct": 0.682
       },
-      "leafsWinPct": 43.9,
-      "homeWinPct": 56.1,
-      "awayWinPct": 43.9,
+      "leafsWinPct": 42.1,
+      "homeWinPct": 57.9,
+      "awayWinPct": 42.1,
       "homeAbbr": "SEA",
       "awayAbbr": "TOR",
       "homeScore": null,
@@ -2775,7 +2775,7 @@
       "result": null,
       "final": false,
       "interest": "Leafs game",
-      "note": "A win banks 2 points. An overtime loss still salvages 1. Model has Toronto at 43.9%.",
+      "note": "A win banks 2 points. An overtime loss still salvages 1. Model has Toronto at 42.1%.",
       "wantWinner": "TOR"
     },
     {
@@ -2822,11 +2822,11 @@
         "common": "Mammoth",
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "division": "Central",
-        "pointPct": 0.7
+        "pointPct": 0.636
       },
-      "leafsWinPct": 46.4,
-      "homeWinPct": 46.4,
-      "awayWinPct": 53.6,
+      "leafsWinPct": 48.3,
+      "homeWinPct": 48.3,
+      "awayWinPct": 51.7,
       "homeAbbr": "TOR",
       "awayAbbr": "UTA",
       "homeScore": null,
@@ -2837,7 +2837,7 @@
       "result": null,
       "final": false,
       "interest": "Leafs game",
-      "note": "A win banks 2 points. An overtime loss still salvages 1. Model has Toronto at 46.4%.",
+      "note": "A win banks 2 points. An overtime loss still salvages 1. Model has Toronto at 48.3%.",
       "wantWinner": "TOR"
     },
     {
