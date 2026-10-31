@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T22:48:04.498017-04:00",
+  "generatedAt": "2026-10-31T04:59:23.901961-04:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -2529,11 +2529,11 @@
         "common": "Flames",
         "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
         "division": "Pacific",
-        "pointPct": 0.417
+        "pointPct": 0.462
       },
-      "leafsWinPct": 51.7,
-      "homeWinPct": 48.3,
-      "awayWinPct": 51.7,
+      "leafsWinPct": 49.9,
+      "homeWinPct": 50.1,
+      "awayWinPct": 49.9,
       "homeAbbr": "CGY",
       "awayAbbr": "TOR",
       "homeScore": 5,
@@ -2557,11 +2557,11 @@
         "common": "Kraken",
         "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
         "division": "Pacific",
-        "pointPct": 0.654
+        "pointPct": 0.607
       },
-      "leafsWinPct": 40.6,
-      "homeWinPct": 59.4,
-      "awayWinPct": 40.6,
+      "leafsWinPct": 42.3,
+      "homeWinPct": 57.7,
+      "awayWinPct": 42.3,
       "homeAbbr": "SEA",
       "awayAbbr": "TOR",
       "homeScore": 5,
@@ -3183,7 +3183,7 @@
     "date": "2026-10-31",
     "start": "2026-10-31T23:00:00Z",
     "label": "Sat, Oct 31 \u00b7 7:00 PM",
-    "days": 1,
+    "days": 0,
     "isHome": false,
     "opponent": "VAN",
     "opponentName": "Vancouver",
