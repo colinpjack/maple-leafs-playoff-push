@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T22:47:16.224623-05:00",
+  "generatedAt": "2026-11-05T06:39:04.088307-05:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -11,7 +11,7 @@
     "status": "chasing",
     "kicker": "Eastern Conference chase",
     "headline": "Right on the cut line",
-    "blurb": "Toronto is 2 points back of the Eastern wild card, the easier of the two routes in. The model has them at 8% to make it."
+    "blurb": "Toronto is 2 points back of the Eastern wild card, the easier of the two routes in. The model has them at 9% to make it."
   },
   "meters": {
     "primary": {
@@ -32,7 +32,7 @@
     }
   },
   "playoffOdds": {
-    "percent": 8,
+    "percent": 9,
     "sims": 2500,
     "note": "Each remaining game is simulated from points percentage, shrunk toward .500, with a home-ice bump. About 23% of games go past regulation and give the loser a point. Not a betting line."
   },
@@ -78,7 +78,7 @@
   "kpis": [
     {
       "label": "Playoff odds",
-      "value": "8%",
+      "value": "9%",
       "hint": "2,500 season sims",
       "stat": "Odds"
     },
@@ -2182,11 +2182,11 @@
         "common": "Kings",
         "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
         "division": "Pacific",
-        "pointPct": 0.385
+        "pointPct": 0.429
       },
-      "leafsWinPct": 57.7,
-      "homeWinPct": 57.7,
-      "awayWinPct": 42.3,
+      "leafsWinPct": 56.1,
+      "homeWinPct": 56.1,
+      "awayWinPct": 43.9,
       "homeAbbr": "TOR",
       "awayAbbr": "LAK",
       "homeScore": null,
@@ -2361,11 +2361,11 @@
         "common": "Sharks",
         "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
         "division": "Pacific",
-        "pointPct": 0.469
+        "pointPct": 0.441
       },
-      "leafsWinPct": 55.9,
-      "homeWinPct": 55.9,
-      "awayWinPct": 44.1,
+      "leafsWinPct": 57.7,
+      "homeWinPct": 57.7,
+      "awayWinPct": 42.3,
       "homeAbbr": "TOR",
       "awayAbbr": "SJS",
       "homeScore": 3,
@@ -2473,11 +2473,11 @@
         "common": "Flames",
         "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
         "division": "Pacific",
-        "pointPct": 0.467
+        "pointPct": 0.469
       },
-      "leafsWinPct": 49.9,
-      "homeWinPct": 50.1,
-      "awayWinPct": 49.9,
+      "leafsWinPct": 49.8,
+      "homeWinPct": 50.2,
+      "awayWinPct": 49.8,
       "homeAbbr": "CGY",
       "awayAbbr": "TOR",
       "homeScore": 5,
@@ -2501,11 +2501,11 @@
         "common": "Kraken",
         "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
         "division": "Pacific",
-        "pointPct": 0.607
+        "pointPct": 0.633
       },
-      "leafsWinPct": 42.4,
-      "homeWinPct": 57.6,
-      "awayWinPct": 42.4,
+      "leafsWinPct": 40.7,
+      "homeWinPct": 59.3,
+      "awayWinPct": 40.7,
       "homeAbbr": "SEA",
       "awayAbbr": "TOR",
       "homeScore": 5,
@@ -3183,7 +3183,7 @@
     "date": "2026-11-07",
     "start": "2026-11-08T00:00:00Z",
     "label": "Sat, Nov 7 \u00b7 7:00 PM",
-    "days": 3,
+    "days": 2,
     "isHome": true,
     "opponent": "MTL",
     "opponentName": "Montr\u00e9al",
@@ -3192,7 +3192,7 @@
   "ticker": [
     "TORONTO MAPLE LEAFS 8-7-2",
     "18 PTS \u00b7 .529",
-    "PLAYOFF ODDS 8%",
+    "PLAYOFF ODDS 9%",
     "EASIER PATH 2",
     "67 GAMES LEFT",
     "Right on the cut line",
