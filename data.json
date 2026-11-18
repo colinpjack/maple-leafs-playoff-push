@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T03:23:53.672524-05:00",
+  "generatedAt": "2026-11-17T19:16:58.833205-05:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -2005,7 +2005,7 @@
       "id": 2026020338,
       "date": "2026-11-17",
       "start": "2026-11-18T00:30:00Z",
-      "state": "FUT",
+      "state": "PRE",
       "venue": "United Center",
       "isHome": false,
       "opponent": {
@@ -2693,7 +2693,7 @@
       "id": 2026020338,
       "date": "2026-11-17",
       "start": "2026-11-18T00:30:00Z",
-      "state": "FUT",
+      "state": "PRE",
       "venue": "United Center",
       "isHome": false,
       "opponent": {
