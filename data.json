@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T23:28:19.813855-05:00",
+  "generatedAt": "2026-11-19T08:48:16.003878-05:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -2389,11 +2389,11 @@
         "common": "Mammoth",
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "division": "Central",
-        "pointPct": 0.523
+        "pointPct": 0.543
       },
-      "leafsWinPct": 42.4,
-      "homeWinPct": 42.4,
-      "awayWinPct": 57.6,
+      "leafsWinPct": 41.0,
+      "homeWinPct": 41.0,
+      "awayWinPct": 59.0,
       "homeAbbr": "TOR",
       "awayAbbr": "UTA",
       "homeScore": 2,
@@ -2473,11 +2473,11 @@
         "common": "Avalanche",
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "division": "Central",
-        "pointPct": 0.643
+        "pointPct": 0.614
       },
-      "leafsWinPct": 31.5,
-      "homeWinPct": 31.5,
-      "awayWinPct": 68.5,
+      "leafsWinPct": 33.4,
+      "homeWinPct": 33.4,
+      "awayWinPct": 66.6,
       "homeAbbr": "TOR",
       "awayAbbr": "COL",
       "homeScore": 3,
@@ -3195,7 +3195,7 @@
     "date": "2026-11-19",
     "start": "2026-11-20T00:00:00Z",
     "label": "Thu, Nov 19 \u00b7 7:00 PM",
-    "days": 1,
+    "days": 0,
     "isHome": true,
     "opponent": "LAK",
     "opponentName": "Los Angeles",
