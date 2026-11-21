@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T15:17:09.265696-05:00",
+  "generatedAt": "2026-11-21T03:52:50.789398-05:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -3195,7 +3195,7 @@
     "date": "2026-11-21",
     "start": "2026-11-22T00:00:00Z",
     "label": "Sat, Nov 21 \u00b7 7:00 PM",
-    "days": 1,
+    "days": 0,
     "isHome": true,
     "opponent": "CBJ",
     "opponentName": "Columbus",
