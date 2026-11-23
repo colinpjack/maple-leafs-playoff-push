@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T22:56:11.256239-05:00",
+  "generatedAt": "2026-11-23T09:37:06.422466-05:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -3195,7 +3195,7 @@
     "date": "2026-11-23",
     "start": "2026-11-24T00:30:00Z",
     "label": "Mon, Nov 23 \u00b7 7:30 PM",
-    "days": 1,
+    "days": 0,
     "isHome": false,
     "opponent": "NYI",
     "opponentName": "NY Islanders",
