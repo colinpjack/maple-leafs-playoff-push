@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T17:43:20.242902-05:00",
+  "generatedAt": "2026-11-25T00:04:22.305806-05:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -2182,11 +2182,11 @@
         "common": "Golden Knights",
         "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
         "division": "Pacific",
-        "pointPct": 0.66
+        "pointPct": 0.673
       },
-      "leafsWinPct": 32.3,
-      "homeWinPct": 32.3,
-      "awayWinPct": 67.7,
+      "leafsWinPct": 31.0,
+      "homeWinPct": 31.0,
+      "awayWinPct": 69.0,
       "homeAbbr": "TOR",
       "awayAbbr": "VGK",
       "homeScore": null,
@@ -2445,11 +2445,11 @@
         "common": "Oilers",
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
         "division": "Pacific",
-        "pointPct": 0.731
+        "pointPct": 0.704
       },
-      "leafsWinPct": 26.8,
-      "homeWinPct": 26.8,
-      "awayWinPct": 73.2,
+      "leafsWinPct": 28.3,
+      "homeWinPct": 28.3,
+      "awayWinPct": 71.7,
       "homeAbbr": "TOR",
       "awayAbbr": "EDM",
       "homeScore": 0,
@@ -3195,7 +3195,7 @@
     "date": "2026-11-27",
     "start": "2026-11-27T18:00:00Z",
     "label": "Fri, Nov 27 \u00b7 1:00 PM",
-    "days": 3,
+    "days": 2,
     "isHome": false,
     "opponent": "BOS",
     "opponentName": "Boston",
