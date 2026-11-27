@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T00:49:53.657468-05:00",
+  "generatedAt": "2026-11-27T04:09:45.318363-05:00",
   "season": "2026\u201327",
   "seasonId": 20262027,
   "mode": "live",
@@ -3195,7 +3195,7 @@
     "date": "2026-11-27",
     "start": "2026-11-27T18:00:00Z",
     "label": "Fri, Nov 27 \u00b7 1:00 PM",
-    "days": 1,
+    "days": 0,
     "isHome": false,
     "opponent": "BOS",
     "opponentName": "Boston",
